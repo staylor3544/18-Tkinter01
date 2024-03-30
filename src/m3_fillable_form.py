@@ -45,7 +45,26 @@ greeting_label = tk.Label(
     height = 4
 )
 greeting_label.configure(relief = 'ridge')
-greeting_label.grid(column=1, columnspan=5, row=1, pady=5, padx=5)
+greeting_label.grid_propagate(0)
+greeting_label.grid(column=1, columnspan=5, row=1, pady=5, padx=5, sticky = 'n,s,e,w')
+
+greeting_frame1 = tk.Frame(window, width = 80, height = 80, bg = "#F48F85")
+greeting_frame1.configure(borderwidth = 3, relief = 'sunken')
+greeting_frame1.grid_propagate(0)
+greeting_frame1.grid(column=1, row=1, pady=5, padx=5, sticky="e")
+
+nested_frame1 = tk.Frame(greeting_frame1, width = 40, height = 40, bg = "#F48F85")
+nested_frame1.configure(borderwidth = 3, relief = 'raised')
+nested_frame1.grid(column=1, row=1, pady=5, padx=5, sticky="e")
+
+greeting_frame2 = tk.Frame(window, width = 80, height = 80, bg = "#F48F85")
+greeting_frame2.configure(borderwidth = 3, relief = 'sunken')
+greeting_frame2.grid_propagate(0)
+greeting_frame2.grid(column=4, row=1, pady=5, padx=5, sticky="e")
+
+nested_frame2 = tk.Frame(greeting_frame2, width = 40, height = 40, bg = "#F48F85")
+nested_frame2.configure(borderwidth = 3, relief = 'raised')
+nested_frame2.grid(column=4, row=1, pady=5, padx=5, sticky="e")
 
 frame1 = tk.Frame(window)
 frame1.configure(borderwidth = 3, relief = 'sunken')
