@@ -31,6 +31,171 @@ import tkinter as tk
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+# window = tk.Tk()
+# window.title("Form")
+#
+#label1 = tk.Label(
+#   window,
+#   text = "What is your name?",
+#   font = "Times 12 italic bold",
+#   background = "#C2DDFA",
+#   foreground = "#D54405",
+#   width = 30,
+#   height = 2
+#)
+# label1.pack()
+#
+#entry1 = tk.Entry(
+#   window,
+#   width = 20
+#   font = "Times 10 italic",
+#   width = 20,
+#)
+#entry1.pack()
+#
+#label2 = tk.Label(
+#   window,
+#   text = "What is your address?",
+#   font = "Times 12 italic bold",
+#   background = "#C2DDFA",
+#   foreground = "#D54405",
+#   width = 30,
+#   height = 2
+#)
+# label2.pack()
+#
+#entry2 = tk.Entry(
+#   window,
+#   width = 20
+#   font = "Times 10 italic",
+#   width = 20,
+#)
+#entry2.pack()
+#
+#label3 = tk.Label(
+#   window,
+#   text = "What is your secondary address?",
+#   font = "Times 12 italic bold",
+#   background = "#C2DDFA",
+#   foreground = "#D54405",
+#   width = 30,
+#   height = 2
+#)
+#label3.pack()
+#
+#entry3 = tk.Entry(
+#   window,
+#   width = 20
+#   font = "Times 10 italic",
+#   width = 20,
+#)
+#entry3.pack()
+#
+#label4 = tk.Label(
+#   window,
+#   text = "What city do you live in?",
+#   font = "Times 12 italic bold",
+#   background = "#C2DDFA",
+#   foreground = "#D54405",
+#   width = 30,
+#   height = 2
+#)
+#label4.pack()
+#
+#entry4 = tk.Entry(
+#   window,
+#   width = 20
+#   font = "Times 10 italic",
+#   width = 20,
+#)
+#entry4.pack()
+#
+#label5 = tk.Label(
+#   window,
+#   text = "What state do you live in?",
+#   font = "Times 12 italic bold",
+#   background = "#C2DDFA",
+#   foreground = "#D54405",
+#   width = 30,
+#   height = 2
+#)
+#label5.pack()
+#
+#entry5 = tk.Entry(
+#   window,
+#   width = 20
+#   font = "Times 10 italic",
+#   width = 20,
+#)
+#entry5.pack()
+#
+#label6 = tk.Label(
+#   window,
+#   text = "What is your zip code?",
+#   font = "Times 12 italic bold",
+#   background = "#C2DDFA",
+#   foreground = "#D54405",
+#   width = 30,
+#   height = 2
+#)
+#label6.pack()
+#
+#entry6 = tk.Entry(
+#   window,
+#   width = 20
+#   font = "Times 10 italic",
+#   width = 20,
+#)
+#entry6.pack()
+#
+#label7 = tk.Label(
+#   window,
+#   text = "What is your phone number?",
+#   font = "Times 12 italic bold",
+#   background = "#C2DDFA",
+#   foreground = "#D54405",
+#   width = 30,
+#   height = 2
+#)
+#label7.pack()
+#
+#entry7 = tk.Entry(
+#   window,
+#   width = 20
+#   font = "Times 10 italic",
+#   width = 20,
+#)
+#entry7.pack()
+#
+#label8 = tk.Label(
+#   window,
+#   text = "What is your email address?",
+#   font = "Times 12 italic bold",
+#   background = "#C2DDFA",
+#   foreground = "#D54405",
+#   width = 30,
+#   height = 2
+#)
+#label8.pack()
+#
+#entry8 = tk.Entry(
+#   window,
+#   width = 20
+#   font = "Times 10 italic",
+#   width = 20,
+#)
+#entry8.pack()
+#my_custom_button = tk.Button(
+#   window,
+#   text = "SUBMIT",
+#   font = "Times 15 underline bold",
+#   fg = "#C00425",
+#   bg = "#FFCCBB"
+#)
+#my_custom_button.pack()
+#
+#window.mainloop()
+
 window = tk.Tk()
 window.title("Form")
 window.configure(background="#F8DED1")
